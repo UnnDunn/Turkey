@@ -17,14 +17,14 @@ int main(int argc, const char * argv[])
     weight = 14.2;
     
     // log it to the user
-    printf("Turkey Weight: %f.\n", weight);
+    printf("Turkey Weight: %0.1f.\n", weight);
     
     // calculate the cooking time abd store it in the variable.
     // in this case, '*' means 'multiplied by'.
     cookingTime = 15.0 + (weight * 15.0);
     
     // log that to the user
-    printf("Cooking Time: %f.\n", cookingTime);
+    printf("Cooking Time: %0.2f minutes.\n", cookingTime);
     
     
     return 0;
