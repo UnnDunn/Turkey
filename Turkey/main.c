@@ -21,10 +21,12 @@ int main(int argc, const char * argv[])
     
     // calculate the cooking time abd store it in the variable.
     // in this case, '*' means 'multiplied by'.
-    cookingTime = 15 + (weight * 15);
+    cookingTime = 15.0 + (weight * 15.0);
     
     // log that to the user
     printf("Cooking Time: %f.\n", cookingTime);
     
+    
+    return 0;
 }
 
